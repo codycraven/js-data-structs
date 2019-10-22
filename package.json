@@ -18,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codycraven/js-doubly-linked-list.git"
+    "url": "git+https://github.com/codycraven/js-data-structs.git"
   },
   "author": "Cody Craven <cody@cravencode.com> (https://cravencode.com/)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/codycraven/js-doubly-linked-list/issues"
+    "url": "https://github.com/codycraven/js-data-structs/issues"
   },
-  "homepage": "https://github.com/codycraven/js-doubly-linked-list#readme"
+  "homepage": "https://github.com/codycraven/js-data-structs#readme"
 }
