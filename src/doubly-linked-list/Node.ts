@@ -2,7 +2,7 @@ import DoublyLinkedList from './DoublyLinkedList';
 import { newNode } from './';
 
 export default class Node {
-  public data: any;
+  public data;
   public prev: Node | undefined = undefined;
   public next: Node | undefined = undefined;
 
