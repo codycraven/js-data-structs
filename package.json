@@ -1,18 +1,21 @@
 {
   "name": "@codycraven/data-structs",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Common data structures for JavaScript",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "dependencies": {},
+  "dependencies": {
+    "tslint-to-eslint-config": "^0.2.8"
+  },
   "devDependencies": {
     "@types/jest": "^24.0.19",
     "@types/node": "^12.11.2",
+    "@typescript-eslint/eslint-plugin": "^2.5.0",
+    "@typescript-eslint/parser": "^2.5.0",
+    "eslint": "^6.5.1",
     "jest": "^24.9.0",
     "prettier": "^1.18.2",
     "ts-jest": "^24.1.0",
-    "tslint": "^5.20.0",
-    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.6.4"
   },
   "scripts": {
@@ -20,8 +23,8 @@
     "build:watch": "npm run build -- -w",
     "test": "npx jest",
     "test:watch": "npm test -- --watch",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "lint": "tslint -p tsconfig.json",
+    "format": "npx prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "npx tslint -p tsconfig.json",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",

@@ -1,1 +1,1 @@
-console.log("Hello world");
+export { default as DoublyLinkedList } from './doubly-linked-list';
