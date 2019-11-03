@@ -89,8 +89,8 @@ test('able to insert after, in middle of list', () => {
 test('able to insert after, end of list', () => {
   const d = new DoublyLinkedList();
   d.insertHead('head');
-  d.insertTail('middle');
-  d.tail.insertAfter('tail');
+  d.head.insertAfter('middle');
+  d.insertTail('tail');
   expect(d.length).toBe(3);
   // Walk list
   expect(d.head.data).toBe('head');
@@ -238,6 +238,7 @@ test('remove only node from list', () => {
 
 test('serializes to JSON', () => {
   const d = new DoublyLinkedList();
+  expect(JSON.parse(JSON.stringify(d))).toMatchObject([]);
   d.insertHead('head');
   d.insertTail('tail');
   d.tail.insertBefore('middle');

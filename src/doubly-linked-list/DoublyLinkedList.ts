@@ -21,11 +21,9 @@ export default class DoublyLinkedList {
 
   public insertTail<T>(data: T): Node {
     const n = newNode(this, data);
-    if (this.head) {
-      if (this.tail) {
-        n.prev = this.tail;
-        n.prev.next = n;
-      }
+    if (this.tail) {
+      n.prev = this.tail;
+      n.prev.next = n;
     } else {
       this.head = n;
     }
