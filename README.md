@@ -2,6 +2,14 @@
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
+Common data structures for JavaScript.
+
+## Data structures
+
+### Lists
+
+1. [Doubly Linked Lists](src/doubly-linked-list/)
+
 ## Contributing
 
 First install dependencies:
