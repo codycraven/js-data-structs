@@ -244,3 +244,14 @@ test('serializes to JSON', () => {
   d.tail.insertBefore('middle');
   expect(JSON.parse(JSON.stringify(d))).toMatchObject(['head', 'middle', 'tail']);
 });
+
+test('valueOf functions', () => {
+  const d = new DoublyLinkedList();
+  const node1 = d.insertHead(84);
+  const node2 = d.insertTail(42);
+  const node3 = d.insertTail(8);
+  expect(node1 > node2).toBe(true);
+  expect(node1 < node2).toBe(false);
+  expect(node2 > node3).toBe(true);
+  expect(node2.valueOf()).toBe(42);
+});

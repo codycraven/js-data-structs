@@ -50,6 +50,12 @@ myList.length; // 4
 myList.tail; // "xyz" Node
 ```
 
+Serialize list into JSON:
+
+```js
+JSON.stringify(myList); // ["ghi", "def", "abc", "xyz"]
+```
+
 ### Node methods
 
 Remove the second node:
@@ -94,4 +100,16 @@ const ghiNode = mnoNode.prev;
 mnoNode.remove();
 ghiNode.insertBefore(mnoNode.data); // ["abc", "mno", "ghi", "pqr", "xyz"]
 myList.length; // 5
+```
+
+Compare node values:
+
+```js
+const list = new DoublyLinkedList();
+const node1 = list.insertHead(84);
+const node2 = list.insertTail(42);
+const node3 = list.insertTail(8);
+node1 > node2; // true
+node1 < node2; // false
+node2 > node3; // true
 ```

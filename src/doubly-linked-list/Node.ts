@@ -59,4 +59,8 @@ export default class Node {
     }
     this.list.length--;
   }
+
+  public valueOf<T>(): T {
+    return this.data;
+  }
 }
