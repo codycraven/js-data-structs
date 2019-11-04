@@ -1,5 +1,14 @@
 # Doubly Linked List
 
+Generally, linked lists do not provide tremendous value in JavaScript since
+array objects allow storage of any type and are variable in length. However,
+linked lists can be an efficient mechanism to perform operations on nodes in
+an asynchronous manner.
+
+Doubly Linked Lists provide benefits over (Singly) Linked Lists since each node
+contains a reference to the node preceeding it, allowing efficient iteration
+in either direction.
+
 ## Installation
 
 If you haven't yet installed @codycraven/data-structs in your application, run:
