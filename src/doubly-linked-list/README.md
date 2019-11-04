@@ -113,3 +113,9 @@ node1 > node2; // true
 node1 < node2; // false
 node2 > node3; // true
 ```
+
+Read a node's value:
+
+```js
+node2.valueOf(); // 42
+```
