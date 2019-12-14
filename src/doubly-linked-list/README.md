@@ -23,10 +23,10 @@ npm install --save @codycraven/data-structs
 Add the DoublyLinkedList module to your code:
 
 ```js
-const DoublyLinkedList = require('@codycraven/data-structs/doubly-linked-list').DoublyLinkedList;
+const { DoublyLinkedList } = require('@codycraven/data-structs');
 
 // Or if your environment supports ES6 modules:
-// import { DoublyLinkedList } from "@codycraven/data-structs/doubly-linked-list"
+// import { DoublyLinkedList } from "@codycraven/data-structs"
 ```
 
 ## Usage
