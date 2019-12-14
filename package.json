@@ -1,6 +1,6 @@
 {
   "name": "@codycraven/data-structs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Common data structures for JavaScript",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
