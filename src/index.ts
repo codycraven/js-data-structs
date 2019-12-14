@@ -1,1 +1,1 @@
-export { default as DoublyLinkedList } from './doubly-linked-list';
+export { DoublyLinkedList } from './doubly-linked-list';

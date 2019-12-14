@@ -1,7 +1,7 @@
-import DoublyLinkedList from './DoublyLinkedList';
+import { DoublyLinkedList } from './DoublyLinkedList';
 import { newNode } from './';
 
-export default class Node {
+export class Node {
   public data;
   public prev: Node | undefined = undefined;
   public next: Node | undefined = undefined;

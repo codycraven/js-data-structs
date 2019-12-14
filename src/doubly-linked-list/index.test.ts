@@ -1,4 +1,4 @@
-import DoublyLinkedList from '.';
+import { DoublyLinkedList } from '.';
 
 test('new list has expected structure', () => {
   expect(new DoublyLinkedList()).toMatchObject({
