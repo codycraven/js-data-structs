@@ -1,6 +1,6 @@
 # JavaScript Data Structures
 
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![Try @codycraven/data-structs on RunKit](https://badge.runkitcdn.com/@codycraven/data-structs.svg)](https://npm.runkit.com/@codycraven/data-structs) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 Common data structures for JavaScript.
 

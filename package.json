@@ -4,6 +4,7 @@
   "description": "Common data structures for JavaScript",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
+  "runkitExampleFilename": "./example.js",
   "dependencies": {
     "tslint-to-eslint-config": "^0.2.8"
   },
