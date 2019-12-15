@@ -1,6 +1,6 @@
 # JavaScript Data Structures
 
-[![Try @codycraven/data-structs on RunKit](https://badge.runkitcdn.com/@codycraven/data-structs.svg)](https://npm.runkit.com/@codycraven/data-structs) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![Try @codycraven/data-structs on RunKit](https://badge.runkitcdn.com/@codycraven/data-structs.svg)](https://npm.runkit.com/@codycraven/data-structs) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![Coverage Status](https://coveralls.io/repos/github/codycraven/js-data-structs/badge.svg?branch=master)](https://coveralls.io/github/codycraven/js-data-structs?branch=master)
 
 Common data structures for JavaScript.
 
