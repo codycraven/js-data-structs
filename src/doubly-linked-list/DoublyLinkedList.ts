@@ -6,7 +6,7 @@ export class DoublyLinkedList {
   public tail: Node | undefined;
   public length = 0;
 
-  public insertHead<T>(data: T): Node {
+  public insertHead(data: unknown): Node {
     const n = newNode(this, data);
     if (this.head) {
       n.next = this.head;
@@ -19,7 +19,7 @@ export class DoublyLinkedList {
     return n;
   }
 
-  public insertTail<T>(data: T): Node {
+  public insertTail(data: unknown): Node {
     const n = newNode(this, data);
     if (this.tail) {
       n.prev = this.tail;
@@ -32,8 +32,8 @@ export class DoublyLinkedList {
     return n;
   }
 
-  public toJSON<T>(): T[] {
-    const a: T[] = [];
+  public toJSON(): unknown[] {
+    const a: unknown[] = [];
     if (this.head) {
       let n = this.head;
       do {

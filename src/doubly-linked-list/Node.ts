@@ -2,13 +2,13 @@ import { DoublyLinkedList } from './DoublyLinkedList';
 import { newNode } from './';
 
 export class Node {
-  public data;
+  public data: unknown;
   public prev: Node | undefined = undefined;
   public next: Node | undefined = undefined;
 
   constructor(public list: DoublyLinkedList) {}
 
-  public insertAfter<T>(data: T): Node {
+  public insertAfter(data: unknown): Node {
     const n = newNode(this.list, data);
     n.next = this.next;
     n.prev = this;
@@ -22,7 +22,7 @@ export class Node {
     return n;
   }
 
-  public insertBefore<T>(data: T): Node {
+  public insertBefore(data: unknown): Node {
     const n = newNode(this.list, data);
     n.next = this;
     n.prev = this.prev;
@@ -60,7 +60,7 @@ export class Node {
     this.list.length--;
   }
 
-  public valueOf<T>(): T {
+  public valueOf(): unknown {
     return this.data;
   }
 }
