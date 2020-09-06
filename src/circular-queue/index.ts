@@ -8,7 +8,7 @@ export class CircularQueue {
     this.store = new Array(size);
   }
 
-  public push(data: unknown): Boolean {
+  public push(data: unknown): boolean {
     if (this.length === this.size) {
       return false;
     }
@@ -38,9 +38,9 @@ export class CircularQueue {
   }
 
   public toJSON(): unknown[] {
-    let end = this.head + this.length;
+    const end = this.head + this.length;
     if (!this.length) {
-      return new Array();
+      return [];
     } else if (end <= this.size) {
       return this.store.slice(this.head, end);
     }

@@ -54,4 +54,4 @@ test('queue converts to JSON', () => {
   q.push('c');
   q.push('d');
   expect(JSON.parse(JSON.stringify(q))).toMatchObject(['b', 'c', 'd']);
-})
+});
