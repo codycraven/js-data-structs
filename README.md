@@ -10,6 +10,10 @@ Common data structures for JavaScript.
 
 1. [Doubly Linked Lists](src/doubly-linked-list/)
 
+### Queues
+
+1. [Circular Queue](src/circular-queue/)
+
 ## Contributing
 
 First install dependencies:
