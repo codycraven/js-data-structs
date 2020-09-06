@@ -27,8 +27,8 @@ const { CircularQueue } = require('@codycraven/data-structs');
 Create a new queue:
 
 ```js
-// Where 3 is the maximum number of elements in your queue.
-const myQueue = new CirularQueue(3);
+// Where 3 is the maximum number of elements you'd like in your queue.
+const myQueue = new CircularQueue(3);
 ```
 
 ### Queue functionality
