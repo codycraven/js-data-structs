@@ -4,7 +4,7 @@
   "description": "Common data structures for JavaScript",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
-  "runkitExampleFilename": "./example.js",
+  "runkitExampleFilename": "example.js",
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^26.0.13",
@@ -32,8 +32,12 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
+  "directories": {
+    "lib": "./lib"
+  },
   "files": [
-    "lib/**/*"
+    "lib/**/*",
+    "example.js"
   ],
   "repository": {
     "type": "git",
