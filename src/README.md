@@ -8,4 +8,4 @@ See child directories for data structures.
 
 ### Queues
 
-1. [Circular Queue](src/circular-queue/)
+1. [Circular Queue](circular-queue/)
