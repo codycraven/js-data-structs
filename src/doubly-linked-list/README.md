@@ -91,7 +91,7 @@ myList.tail.prev.moveToTail(); // ["abc", "ghi", "xyz"]
 Insert a node before another:
 
 ```js
-const mnoNode = myList.tail.insertBefore('uvw'); // ["abc", "ghi", "mno", "xyz"]
+const mnoNode = myList.tail.insertBefore('mno'); // ["abc", "ghi", "mno", "xyz"]
 myList.length; // 4
 ```
 
